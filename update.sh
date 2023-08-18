@@ -5,7 +5,7 @@ currentBuildId="$(cat postman.spec | grep '%global build_id' | awk '{print $3}')
 
 apiResponse="$(curl -s 'https://www.postman.com/mkapi/release.json')"
 latestVersion="$(printf "%s" "${apiResponse}" | jq -r '.notes[0].version')"
-latestBuildId="$(latestVersion)"
+latestBuildId="$latestVersion"
 
 echo "Current version: $currentVersion build: $currentBuildId"
 echo "Latest version: $latestVersion build: $latestBuildId"

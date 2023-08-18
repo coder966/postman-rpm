@@ -1,5 +1,5 @@
 Name:          postman
-Version:       test
+Version:       10.17.0
 Release:       1%{?dist}
 Summary:       Postman
 License:       Apache 2.0
@@ -20,7 +20,7 @@ AutoReqProv: no
 %global __jar_repack %{nil}
 
 
-%global build_id test
+%global build_id 10.17.0
 
 
 %description
@@ -63,5 +63,6 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE1}
 
 
 %changelog
+
 * Tue Aug 18 2023 coder966 <coder966@gmail.com> - 10.17.0
 - Initial Release
