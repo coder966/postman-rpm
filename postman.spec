@@ -1,5 +1,5 @@
 Name:          postman
-Version:       10.18.1
+Version:       10.18.2
 Release:       1%{?dist}
 Summary:       Postman
 License:       Apache 2.0
@@ -20,7 +20,7 @@ AutoReqProv: no
 %global __jar_repack %{nil}
 
 
-%global build_id 10.18.1
+%global build_id 10.18.2
 
 
 %description
@@ -63,6 +63,9 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE1}
 
 
 %changelog
+* Sat Sep 16 2023 RPM Bot <rpm-bot@coder966.net> - 10.18.2
+- Update to 10.18.2
+
 * Fri Sep 15 2023 RPM Bot <rpm-bot@coder966.net> - 10.18.1
 - Update to 10.18.1
 
