@@ -1,5 +1,5 @@
 Name:          postman
-Version:       10.19.0
+Version:       10.19.7
 Release:       1%{?dist}
 Summary:       Postman
 License:       Apache 2.0
@@ -20,7 +20,7 @@ AutoReqProv: no
 %global __jar_repack %{nil}
 
 
-%global build_id 10.19.0
+%global build_id 10.19.7
 
 
 %description
@@ -63,6 +63,9 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE1}
 
 
 %changelog
+* Sat Oct 21 2023 RPM Bot <rpm-bot@coder966.net> - 10.19.7
+- Update to 10.19.7
+
 * Fri Oct 13 2023 RPM Bot <rpm-bot@coder966.net> - 10.19.0
 - Update to 10.19.0
 
