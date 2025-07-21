@@ -1,5 +1,5 @@
 Name:          postman
-Version:       11.54.6
+Version:       11.55.0
 Release:       1%{?dist}
 Summary:       Postman
 License:       Apache 2.0
@@ -20,7 +20,7 @@ AutoReqProv: no
 %global __jar_repack %{nil}
 
 
-%global build_id 11.54.6
+%global build_id 11.55.0
 
 
 %description
@@ -63,6 +63,9 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE1}
 
 
 %changelog
+* Mon Jul 21 2025 RPM Bot <rpm-bot@coder966.net> - 11.55.0
+- Update to 11.55.0
+
 * Sat Jul 19 2025 RPM Bot <rpm-bot@coder966.net> - 11.54.6
 - Update to 11.54.6
 
