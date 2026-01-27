@@ -1,5 +1,5 @@
 Name:          postman
-Version:       11.81.4
+Version:       11.82.1
 Release:       1%{?dist}
 Summary:       Postman
 License:       Apache 2.0
@@ -20,7 +20,7 @@ AutoReqProv: no
 %global __jar_repack %{nil}
 
 
-%global build_id 11.81.4
+%global build_id 11.82.1
 
 
 %description
@@ -63,6 +63,9 @@ desktop-file-install --dir=%{buildroot}%{_datadir}/applications %{SOURCE1}
 
 
 %changelog
+* Tue Jan 27 2026 RPM Bot <rpm-bot@coder966.net> - 11.82.1
+- Update to 11.82.1
+
 * Sat Jan 24 2026 RPM Bot <rpm-bot@coder966.net> - 11.81.4
 - Update to 11.81.4
 
